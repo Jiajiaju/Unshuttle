@@ -1,0 +1,32 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "Unshuttle",
+  "Description": "A Event System",
+  "Category": "",
+  "CreatedBy": "jiajiaju",
+  "CreatedByURL": "",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "",
+  "CanContainContent": false,
+  "IsBetaVersion": false,
+  "IsExperimentalVersion": false,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "UnshuttleRuntime",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "UnshuttleEditor",
+      "Type": "UncookedOnly",
+      "LoadingPhase": "Default",
+      "WhitelistPlatforms": ["Win64", "Mac"]
+    }
+  ],
+  "Plugins": [
+  ]
+}
